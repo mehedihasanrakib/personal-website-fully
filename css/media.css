@@ -1,0 +1,72 @@
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	.navbar-nav li{
+		text-align: right;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+    display: inline-block;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.navbar-dark .navbar-nav .nav-link::after{
+	background-color: transparent;
+}
+.aboutme-section .row{
+  align-items: center;	
+}
+.heading span{
+	font-size: 75px;
+}
+.heading h1{
+	font-size: 35px;
+}
+.resume-content p{
+	max-width: 280px;
+}
+}
+@media(max-width: 767px){
+	.banner-content{
+		font-size: 35px;
+	}
+	.banner-content p{
+		font-size: 14px;
+		margin: 20px auto;
+	}
+	.btn-custom,.btn-custom-reserve {
+    font-size: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+   
+}
+.aboutme-img img{
+margin-bottom: 30px;	
+}
+.aboutme-section{
+	padding:50px 0; 
+}
+.heading span{
+	width: 100%;
+	text-align: center;
+}
+.aboutme-content p{
+	text-align: center;
+	font-size: 14px;
+}
+}
+@media(max-width: 575px){
+	.social-link{
+		display: none;
+	}
+	.aboutme-section .row{
+  justify-content: center;	
+}
+.skill-section .heading span{
+	font-size: 45px;
+}
+.skill{
+	margin-bottom: 30px;
+}
+
+}
